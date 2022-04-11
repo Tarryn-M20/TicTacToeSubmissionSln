@@ -107,34 +107,39 @@ namespace TicTacToeSubmissionConole
 
         }
         public bool CheckIfPlayerWins(int player)
+
+            // ACROSS
         {
-            if ((_boardPositions[0] == player) && (_boardPositions[0] == player) && (_boardPositions[0] == player))
+            if ((_boardPositions[0] == player) && (_boardPositions[1] == player) && (_boardPositions[2] == player))
                 return true;
 
-            if ((_boardPositions[0] == player) && (_boardPositions[1] == player) && (_boardPositions[1] == player))
+            if ((_boardPositions[3] == player) && (_boardPositions[4] == player) && (_boardPositions[5] == player))
                 return true;
 
-            if ((_boardPositions[0] == player) && (_boardPositions[2] == player) && (_boardPositions[2] == player))
+            if ((_boardPositions[6] == player) && (_boardPositions[7] == player) && (_boardPositions[8] == player))
                 return true;
 
-            if ((_boardPositions[1] == player) && (_boardPositions[0] == player) && (_boardPositions[3] == player))
+            //
+
+            if ((_boardPositions[0] == player) && (_boardPositions[3] == player) && (_boardPositions[6] == player))
                 return true;
 
-            if ((_boardPositions[1] == player) && (_boardPositions[1] == player) && (_boardPositions[4] == player))
+            if ((_boardPositions[1] == player) && (_boardPositions[4] == player) && (_boardPositions[7] == player))
                 return true;
 
-            if ((_boardPositions[1] == player) && (_boardPositions[2] == player) && (_boardPositions[5] == player))
+            if ((_boardPositions[2] == player) && (_boardPositions[5] == player) && (_boardPositions[8] == player))
                 return true;
 
-            if ((_boardPositions[2] == player) && (_boardPositions[0] == player) && (_boardPositions[6] == player))
+             // diagonal
+            if ((_boardPositions[0] == player) && (_boardPositions[4] == player) && (_boardPositions[8] == player))
                 return true;
 
-            if ((_boardPositions[2] == player) && (_boardPositions[1] == player) && (_boardPositions[7] == player))
+            if ((_boardPositions[2] == player) && (_boardPositions[4] == player) && (_boardPositions[6] == player))
                 return true;
 
-            if ((_boardPositions[2] == player) && (_boardPositions[2] == player) && (_boardPositions[8] == player))
-                return true;
+            
 
+           
 
             return false;
         }
