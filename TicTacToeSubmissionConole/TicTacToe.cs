@@ -58,8 +58,6 @@ namespace TicTacToeSubmissionConole
         }
 
 
-
-
         public TicTacToe()
         {
             _boardRenderer = new TicTacToeConsoleRenderer(10,6);
@@ -102,13 +100,15 @@ namespace TicTacToeSubmissionConole
             _boardRenderer.AddMove(rowNumber, columnNumber, PlayerEnum.X, true);
 
         }
-        private void PlayMoveO()
+
+        /*private void PlayMoveO()
         {
 
-        }
+        }*/
+
         public bool CheckIfPlayerWins(int player)
 
-            // ACROSS
+            // across
         {
             if ((_boardPositions[0] == player) && (_boardPositions[1] == player) && (_boardPositions[2] == player))
                 return true;
@@ -119,7 +119,7 @@ namespace TicTacToeSubmissionConole
             if ((_boardPositions[6] == player) && (_boardPositions[7] == player) && (_boardPositions[8] == player))
                 return true;
 
-            //
+            //down
 
             if ((_boardPositions[0] == player) && (_boardPositions[3] == player) && (_boardPositions[6] == player))
                 return true;
@@ -137,9 +137,6 @@ namespace TicTacToeSubmissionConole
             if ((_boardPositions[2] == player) && (_boardPositions[4] == player) && (_boardPositions[6] == player))
                 return true;
 
-            
-
-           
 
             return false;
         }
@@ -158,6 +155,7 @@ namespace TicTacToeSubmissionConole
 
                 
                 playerXWins = CheckIfPlayerWins(1);
+             
                 if (playerXWins)
                 { 
                     Console.WriteLine("Player X Wins");
@@ -169,24 +167,21 @@ namespace TicTacToeSubmissionConole
 
                 PlayMove(2);
 
-                playerOWins = CheckIfPlayerWins(1);
+                playerOWins = CheckIfPlayerWins(2);
                 if (playerOWins)
                 {
                     Console.WriteLine("Player O Wins");
                     break;
                 }
 
-               
-
-
                 // check if X won
 
-                //if X won, exit
+                    // if X won, exit
 
                 // check if O won
 
-                // if O won, exit
-
+                    // if O won, exit
+ 
                 _rounds++;
 
             }
@@ -197,7 +192,7 @@ namespace TicTacToeSubmissionConole
 
             // FOR ILLUSTRATION CHANGE TO YOUR OWN LOGIC TO DO TIC TAC TOE
 
-     /*       Console.SetCursorPosition(2, 19);
+           /* Console.SetCursorPosition(2, 19);
 
             Console.Write("Player X");
 

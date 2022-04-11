@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tarryn Masunda\\Source\\Repos\\Tarryn-M20\\tictactoee\\TicTacToeSubmissionSln\\TicTacToeSubmissionConole\\TicTacToeSubmissionConole.csproj": {}
+    "C:\\Users\\Tarryn Masunda\\source\\repos\\Tarryn-M20\\TicTacToeSubmissionSln\\TicTacToeSubmissionConole\\TicTacToeSubmissionConole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tarryn Masunda\\Source\\Repos\\Tarryn-M20\\tictactoee\\TicTacToeSubmissionSln\\TicTacToeSubmissionConole\\TicTacToeSubmissionConole.csproj": {
+    "C:\\Users\\Tarryn Masunda\\source\\repos\\Tarryn-M20\\TicTacToeSubmissionSln\\TicTacToeSubmissionConole\\TicTacToeSubmissionConole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tarryn Masunda\\Source\\Repos\\Tarryn-M20\\tictactoee\\TicTacToeSubmissionSln\\TicTacToeSubmissionConole\\TicTacToeSubmissionConole.csproj",
+        "projectUniqueName": "C:\\Users\\Tarryn Masunda\\source\\repos\\Tarryn-M20\\TicTacToeSubmissionSln\\TicTacToeSubmissionConole\\TicTacToeSubmissionConole.csproj",
         "projectName": "TicTacToeSubmissionConole",
-        "projectPath": "C:\\Users\\Tarryn Masunda\\Source\\Repos\\Tarryn-M20\\tictactoee\\TicTacToeSubmissionSln\\TicTacToeSubmissionConole\\TicTacToeSubmissionConole.csproj",
+        "projectPath": "C:\\Users\\Tarryn Masunda\\source\\repos\\Tarryn-M20\\TicTacToeSubmissionSln\\TicTacToeSubmissionConole\\TicTacToeSubmissionConole.csproj",
         "packagesPath": "C:\\Users\\Tarryn Masunda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tarryn Masunda\\Source\\Repos\\Tarryn-M20\\tictactoee\\TicTacToeSubmissionSln\\TicTacToeSubmissionConole\\obj\\",
+        "outputPath": "C:\\Users\\Tarryn Masunda\\source\\repos\\Tarryn-M20\\TicTacToeSubmissionSln\\TicTacToeSubmissionConole\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
